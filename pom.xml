@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>JavaProperties</groupId>
+	<artifactId>ReadFromPropertiesFile</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ReadFromPropertiesFile</name>
+	<description>This is a Example project that shows a simple way to read and write into properties files using QATool's Properties Library.</description>
+
+	<properties>
+		<testng.version>6.11</testng.version>
+		<properties.version>2.0.RC6</properties.version>
+	</properties>
+
+	<dependencies>
+
+		<!-- TestNG Dependency -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+		</dependency>
+
+		<!-- QATools Java Properties Dependency -->
+		<dependency>
+			<groupId>ru.qatools.commons</groupId>
+			<artifactId>properties</artifactId>
+			<version>${properties.version}</version>
+		</dependency>
+
+	</dependencies>
+	
+</project>

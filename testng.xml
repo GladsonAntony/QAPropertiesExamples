@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="ReadFromPropertiesFile" parallel="methods">
+	<test name="Example Test">
+		<classes>
+			<class name="example.ReadFromClasspath" />
+			<class name="example.ReadFromFile" />
+		</classes>
+	</test> 
+</suite> 
