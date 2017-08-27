@@ -1,4 +1,4 @@
-# JAVA - Read from Propertes File
+# JAVA - Read from Properties File
 
 This project provides examples on using QATools Properties Library
 
